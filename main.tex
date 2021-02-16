@@ -1,0 +1,62 @@
+\documentclass{amsart}
+\usepackage{tikz-cd}
+\usepackage{fancyvrb}
+\usepackage[bookmarks=true, linktocpage=true,
+bookmarksnumbered=true, breaklinks=true,
+pdfstartview=FitH, hyperfigures=false,
+plainpages=false, naturalnames=true,
+colorlinks=true, pagebackref=true,
+pdfpagelabels]{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue
+}
+
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-1.85in}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}
+\calclayout
+
+\makeatletter
+\@namedef{subjclassname@2020}{%
+	\textup{2020} Mathematics Subject Classification}
+\makeatother
+
+\renewcommand{\S}{\mathrm S}
+\newcommand{\comch}{\texttt{ComCH}}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\X}{\mathcal X}
+
+\newcommand{\rev}[1]{\textcolor{red}{#1}} % red/black
+
+\begin{document}
+	
+\title{Homotopy coherent symmetries for Cayley diagonals}
+\author{Anibal M. Medina-Mardones}
+\address{Max Plank Institute for Mathematics, Bonn, Germany}
+\email{ammedmar@mpim-bonn.mpg.de}
+\address{Department of Mathematics, University of Notre Dame, Notre Dame, IN, USA}
+\email{amedinam@nd.edu}
+\thanks{The author acknowledges financial support from Innosuisse grant \mbox{32875.1 IP-ICT - 1}.}
+\keywords{Computer algebra system, Python, homotopical algebra, operads, cohomology operations, cup product, simplicial set, cubical set.}
+\subjclass[2020]{Primary 55-04, 18M60; Secondary 55S05,  	18M70, 55N31.}
+
+\begin{abstract}
+	
+\end{abstract} 
+
+\vspace*{-.8cm}
+
+\maketitle
+
+\section{Introduction}
+
+
+\bibliographystyle{ieeetr} % ieeetr
+\bibliography{bibliography}
+
+\end{document}
